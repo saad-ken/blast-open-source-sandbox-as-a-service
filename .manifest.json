@@ -1,0 +1,103 @@
+{
+  "idea": {
+    "title": "Show HN: Blast \u2013 Open-source sandbox-as-a-service",
+    "source_url": "https://github.com/stanford-mast/blast",
+    "source_platform": "Hacker News Show HN",
+    "description": "Blast \u2013 Open-source sandbox-as-a-service: A simple tool to allow users to create and run their own sandbox environments locally, without needing to set up a paid service or a database. It provides a local, easy-to-deploy platform for developers to experiment and test their code without worrying about server costs.",
+    "suggested_language": "JavaScript"
+  },
+  "spec": {
+    "name": "Blast - Open-source Sandbox-as-a-service",
+    "slug": "blast-open-source-sandbox-as-a-service",
+    "language": "JavaScript",
+    "description": "A simple tool to allow users to create and run their own sandbox environments locally, without needing to set up a paid service or a database. It provides a local, easy-to-deploy platform for developers to experiment and test their code without worrying about server costs.",
+    "problem": "Developers often need a local sandbox environment to test their code, but they may not have the resources to set up a paid service or a database. Blast provides a simple, open-source solution for this.",
+    "files": [
+      {
+        "path": "src/index.js",
+        "purpose": "Main application file"
+      },
+      {
+        "path": "src/commands.js",
+        "purpose": "Command handling logic"
+      },
+      {
+        "path": "src/sandbox.js",
+        "purpose": "Sandbox environment logic"
+      },
+      {
+        "path": "src/models.js",
+        "purpose": "Model and data logic"
+      },
+      {
+        "path": "src/views.js",
+        "purpose": "View rendering logic"
+      },
+      {
+        "path": "src/config.js",
+        "purpose": "Configuration settings"
+      },
+      {
+        "path": "src/cli.js",
+        "purpose": "Command-line interface logic"
+      },
+      {
+        "path": "src/utils.js",
+        "purpose": "Utility functions"
+      }
+    ]
+  },
+  "checks": [
+    {
+      "file": "src/index.js",
+      "tool": "node --check",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "file": "src/commands.js",
+      "tool": "node --check",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "file": "src/sandbox.js",
+      "tool": "node --check",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "file": "src/models.js",
+      "tool": "node --check",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "file": "src/views.js",
+      "tool": "node --check",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "file": "src/config.js",
+      "tool": "node --check",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "file": "src/cli.js",
+      "tool": "node --check",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "file": "src/utils.js",
+      "tool": "node --check",
+      "ok": true,
+      "error": ""
+    }
+  ],
+  "engine": "ollama (qwen2.5-coder:3b)",
+  "generated_at": "2026-08-29 08:53:09",
+  "project_dir": "c:\\projects saad\\code cladu poject\\projt gent\\generated\\blast-open-source-sandbox-as-a-service"
+}
